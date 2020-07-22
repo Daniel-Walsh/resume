@@ -44,7 +44,10 @@ const Projects = () => {
                     {
                         projects.map((project, idx) => (
                             <Reveal effect="fadeInUp">
-                                <ReactMarkdown className={styles.project} source={project} id={idx} renderers={markdownRenderers} />
+                                <div className={styles.project}>
+                                    <ReactMarkdown source={project} id={idx} renderers={markdownRenderers} />
+                                    <hr />
+                                </div>
                             </Reveal> 
                         ))
                     }

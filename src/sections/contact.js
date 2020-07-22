@@ -18,21 +18,21 @@ const Contact = () => {
                             <input type="hidden" name="form-name" value="Contact" />
                             <div className="form-group">
                                 <label for="Name">Name</label>
-                                <input name="Name" id="Name" class="form-control" type="text" placeholder="Enter your name" />
+                                <input name="Name" id="Name" className="form-control" type="text" placeholder="Enter your name" />
                             </div>
                             <div className="form-group">
                                 <label for="Email">Email</label>
-                                <input name="Email" id="Email" class="form-control" type="email" placeholder="Enter your email address" />
+                                <input name="Email" id="Email" className="form-control" type="email" placeholder="Enter your email address" />
                             </div>
                             <div className="form-group">
                                 <label for="Phone">Phone</label>
-                                <input name="Phone" id="Phone" class="form-control" type="tel" placeholder="Enter your phone number" />
+                                <input name="Phone" id="Phone" className="form-control" type="tel" placeholder="Enter your phone number" />
                             </div>
                             <div className="form-group">
                                 <label for="Message">Message</label>
-                                <textarea name="Message" id="Message" class="form-control" rows="5" placeholder="Enter your message" />
+                                <textarea name="Message" id="Message" className="form-control" rows="5" placeholder="Enter your message" />
                             </div>
-                            <button type="submit" class="btn btn-secondary btn-lg">Send message<span className="fas fa-paper-plane ml-2"></span></button>
+                            <button type="submit" className="btn btn-secondary btn-lg">Send message<span className="fas fa-paper-plane ml-2"></span></button>
                         </form>
                     </div>
                 </div>
