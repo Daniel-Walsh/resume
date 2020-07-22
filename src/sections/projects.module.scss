@@ -1,0 +1,18 @@
+.project {
+    img {
+        margin-bottom: 1rem;
+        width: 100%;
+        height: auto;
+        
+        @media screen and (min-width: 992px) {
+            margin: 0 0 1rem 1rem;
+            width: 40%;
+            height: auto;
+            float: right;
+        }
+    }
+    hr {
+        clear: both;
+        margin: 3rem 0;
+    }
+}

@@ -1,8 +1,9 @@
+![alt text](/img/projects/lortsmith.jpg "Logo Title Text 1")
+
 ## Lort Smith website
 
 Website & Dev Ops
 
-[image]
 
 A highly customised content management site, including end-to-end administration of animal adoptions and members-only content areas.
 
