@@ -1,10 +1,11 @@
 import React from 'react';
 import Section from '../components/section';
+import SectionHeading from '../components/section-heading';
 
 const Contact = () => {
     return(
         <Section id="Contact" className="bg-primary">
-            <h1><span className="text-light">//</span> Get in touch</h1>
+            <SectionHeading className="text-light">Get in touch</SectionHeading>
             <p className="lead mb-5">Got an idea that needs developing? Have an older website that needs updating? Drop me a line and let's come up with a solution that best fits your needs.</p>
             <form netlify>
                 <div className="form-group">
@@ -17,7 +18,7 @@ const Contact = () => {
                 </div>
                 <div className="form-group">
                     <label for="Phone">Phone</label>
-                    <input id="Phone" class="form-control" type="text" placeholder="Enter your phone number" />
+                    <input id="Phone" class="form-control" type="tel" placeholder="Enter your phone number" />
                 </div>
                 <div className="form-group">
                     <label for="Message">Message</label>
