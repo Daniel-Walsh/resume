@@ -21,27 +21,32 @@ $display2-weight: 700;
 $display3-weight: 700;
 $display4-weight: 700;
 
+// $my-primary: #47e6b6;
+$my-primary: #00d1b2;
+
 $theme-colors: (
-    "primary": #47e6b6,
-    "light": lighten(#47e6b6, 35%)
+    "primary": $my-primary,
+    "light": lighten($my-primary, 54%)
 );
 
 .fill-primary {
-    fill: #47e6b6;
+    fill: $my-primary;
 }
 
-$yiq-text-dark: darken(#47e6b6, 45%);
+$yiq-text-dark: darken($my-primary, 25%);
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 .btn-light {
-    // color: darken(#47e6b6, 30%);
+    // color: darken($my-primary, 30%);
     &:hover {
         box-shadow: $box-shadow;
     }
 }
 
-
+label {
+    font-weight: 500;
+}
 
 @keyframes fadeInUp {
     from {

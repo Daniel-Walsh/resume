@@ -4,8 +4,8 @@ import Section from '../components/section';
 const Contact = () => {
     return(
         <Section className="bg-primary">
-            <h1>Get in touch</h1>
-            <p className="lead">Got an idea that needs developing? Have an older website that needs updating? Drop me a line and let's come up with a solution that best fits your needs.</p>
+            <h1><span className="text-light">//</span> Get in touch</h1>
+            <p className="lead mb-5">Got an idea that needs developing? Have an older website that needs updating? Drop me a line and let's come up with a solution that best fits your needs.</p>
             <form netlify>
                 <div className="form-group">
                     <label for="Name">Name</label>
