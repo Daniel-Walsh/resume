@@ -20,7 +20,6 @@ const Intro = () => {
                         <div className="lead mb-4">
                             <p>Pumping out creative coding solutions to everyday problems is my jam.</p>
                             <p>HTML, CSS, JavaScript, PHP and dev ops fill my day, but I'm always keen to take up new challenges and expand my knowledge.</p>
-                            {/* <p>Want to know what I've been up to? Scroll down...</p> */}
                         </div>
                         <div className="mb-5 mb-lg-0">
                             <button className="btn btn-primary btn-lg mr-3 mb-3" onClick={() => handleScrollTo('Contact')}>Let's talk<span className="fas fa-megaphone ml-2"></span></button>
