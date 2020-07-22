@@ -14,19 +14,19 @@ const Contact = () => {
                         <input type="hidden" name="form-name" value="Contact" />
                         <div className="form-group">
                             <label for="Name">Name</label>
-                            <input id="Name" class="form-control" type="text" placeholder="Enter your name" />
+                            <input name="Name" id="Name" class="form-control" type="text" placeholder="Enter your name" />
                         </div>
                         <div className="form-group">
                             <label for="Email">Email</label>
-                            <input id="Email" class="form-control" type="email" placeholder="Enter your email address" />
+                            <input name="Email" id="Email" class="form-control" type="email" placeholder="Enter your email address" />
                         </div>
                         <div className="form-group">
                             <label for="Phone">Phone</label>
-                            <input id="Phone" class="form-control" type="tel" placeholder="Enter your phone number" />
+                            <input name="Phone" id="Phone" class="form-control" type="tel" placeholder="Enter your phone number" />
                         </div>
                         <div className="form-group">
                             <label for="Message">Message</label>
-                            <textarea id="Message" class="form-control" rows="5" placeholder="Enter your message" />
+                            <textarea name="Message" id="Message" class="form-control" rows="5" placeholder="Enter your message" />
                         </div>
                         <button type="submit" class="btn btn-secondary btn-lg">Send message</button>
                     </form>
