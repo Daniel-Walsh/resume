@@ -15,7 +15,7 @@ const Intro = () => {
                 <div className="col-lg-9 col-xl-7" style={{zIndex: 100}}>
                     <div className="d-flex h-100 flex-column align-items-start justify-content-center" style={{zIndex: 10}}>
                         <Logo className="mb-5 w-auto" style={{maxHeight:'3.5rem'}} />           
-                        <h1 className="display-4">Hi, my name is <span className="text-primary">Dan&nbsp;Walsh <span role="img" aria-label="Waving hand">👋</span></span></h1>
+                        <h1 className="display-4">Hi, my name is <span className="text-primary">Dan&nbsp;Walsh</span></h1>
                         <p className="h2 mb-5">I'm a web developer,<br/>based&nbsp;in&nbsp;Geelong.</p>
                         <div className="lead mb-4">
                             <p>Pumping out creative coding solutions to everyday problems is my jam.</p>
