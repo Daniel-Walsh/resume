@@ -10,22 +10,19 @@ const markdownFiles = importAll(require.context('../projects', false, /\.md$/))
   .sort();
 
 const MarkdownLink = (props) => {
-    // const [fullSize, setFullSize] = useState();
-    // const handleClick = () => {
-    //   setFullSize(!fullSize);
-    // };
     return (
-      <a href={props.href}
-        className="btn btn-outline-primary"
-        alt={props.alt}
-        src={props.src}
-        // onClick={handleClick}
-    >{props.children}<span className="fas fa-arrow-right ml-2"></span></a>
+        <a href={props.href} className="btn btn-outline-secondary" rel="noopener noreferrer" target="_blank">
+            {props.children}<span className="fas fa-arrow-right ml-2"></span>
+        </a>
     );
 };
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
+
+    const markdownRenderers = {
+        link: MarkdownLink
+    };
 
     useEffect(() => {
         async function fetchProjects() {
@@ -36,10 +33,6 @@ const Projects = () => {
         }
         fetchProjects();
     }, []);
-
-    const markdownRenderers = {
-        link: MarkdownLink
-    };
 
     return(
         <Section id="Projects" className="bg-light">

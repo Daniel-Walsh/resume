@@ -1,12 +1,12 @@
-![alt text](/img/projects/lortsmith.jpg "Logo Title Text 1")
+![alt text](/img/projects/lortsmith.png "Lort Smith Animal Hospital website")
 
 ## Lort Smith website
 
-Website & Dev Ops
+> Website & Dev Ops
 
 
 A highly customised content management site, including end-to-end administration of animal adoptions and members-only content areas.
 
-[View site](#)
+[View site](https://www.lortsmith.com)
 
 ----------

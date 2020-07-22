@@ -1,12 +1,11 @@
-![alt text](/img/projects/westvicphn.png "Logo Title Text 1")
+![alt text](/img/projects/westvicphn.png "Western Victoria PHN website")
 
 ## Western Victoria PHN website
 
-WordPress Solution
-
+> WordPress Solution
 
 Event registrations, job vacancy advertising and management and content authoring workflows, all wrapped up in a custom-built WordPress solution.
 
-[View site](#)
+[View site](https://westvicphn.com.au)
 
 ----------
