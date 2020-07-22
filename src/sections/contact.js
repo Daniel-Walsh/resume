@@ -10,7 +10,8 @@ const Contact = () => {
                     <SectionHeading className="text-light">Get in touch</SectionHeading>
                     <p className="lead mb-5">Got an idea that needs developing? Have an older website that needs updating? Drop me a line and let's come up with a solution that best fits your needs.</p>
 
-                    <form name="Contact" method="POST" data-netlify="true">
+                    <form name="Contact" method="POST">
+                        <input type="hidden" name="form-name" value="Contact" />
                         <div className="form-group">
                             <label for="Name">Name</label>
                             <input id="Name" class="form-control" type="text" placeholder="Enter your name" />
