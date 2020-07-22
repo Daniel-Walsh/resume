@@ -10,7 +10,10 @@ const Contact = () => {
                 <div className="row">
                     <div className="col-md-10 offset-md-1  col-lg-8 offset-lg-2">
                         <SectionHeading className="text-light">Get in touch</SectionHeading>
-                        <p className="lead mb-5">Got an idea that needs developing? Have an older website that needs updating? Drop me a line and let's come up with a solution that best fits your needs.</p>
+                        <div className="lead mb-5">
+                            <p>Got an idea that needs developing? Have an older website that needs updating?</p>
+                            <p>Drop me a line and let's come up with a solution that best fits your needs.</p>
+                        </div>
                         <form name="Contact" method="POST">
                             <input type="hidden" name="form-name" value="Contact" />
                             <div className="form-group">

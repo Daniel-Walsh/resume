@@ -10,7 +10,7 @@ function handleScrollTo(eID) {
 
 const Intro = () => {
     return(
-        <Section className="overflow-hidden my-5">
+        <Section className="overflow-hidden my-lg-5">
             <div className="row">
                 <div className="col-lg-9 col-xl-7" style={{zIndex: 100}}>
                     <div className="d-flex h-100 flex-column align-items-start justify-content-center" style={{zIndex: 10}}>
