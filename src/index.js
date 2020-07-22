@@ -5,6 +5,10 @@ import './sass/bootstrap.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'typeface-poppins';
+import smoothscroll from 'smoothscroll-polyfill';
+ 
+// Kick off the smoothscroll polyfill
+smoothscroll.polyfill();
 
 ReactDOM.render(
   <React.StrictMode>

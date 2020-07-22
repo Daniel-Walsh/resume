@@ -20,7 +20,7 @@ const Projects = () => {
     }, []);
 
     return(
-        <Section className="bg-light">
+        <Section id="Projects" className="bg-light">
             <h1><span className="text-primary">//</span> Recent projects</h1>
             <p className="lead">Developing websites and applications in both a personal and professional capacity, I've worked on a number of projects over the years. Here's just a short list of what I've been involved in recently:</p>
             {
