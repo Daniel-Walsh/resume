@@ -1,9 +1,8 @@
 ![alt text](/img/projects/lortsmith.png "Lort Smith Animal Hospital website")
 
-## Lort Smith website
+## Lort Smith Animal Hospital
 
 > Website & Dev Ops
-
 
 A highly customised content management site, including end-to-end administration of animal adoptions and members-only content areas.
 

@@ -22,8 +22,8 @@ const Intro = () => {
                             <p>HTML, CSS, JavaScript, PHP and dev ops fill my day, but I'm always keen to take up new challenges and expand my knowledge.</p>
                         </div>
                         <div className="mb-5 mb-lg-0">
-                            <button className="btn btn-primary btn-lg mr-3 mb-3" onClick={() => handleScrollTo('Contact')}>Let's talk<span className="fas fa-megaphone ml-2"></span></button>
-                            <button className="btn btn-secondary text-white mb-3 btn-lg" onClick={() => handleScrollTo('Projects')}>See my recent projects<span className="fas fa-arrow-right ml-2"></span></button>
+                            <button className="btn btn-primary btn-lg mr-3 mb-3" onClick={() => handleScrollTo('Contact')}>Let's talk!<span className="fas fa-megaphone ml-2"></span></button>
+                            <button className="btn btn-secondary text-white mb-3 btn-lg" onClick={() => handleScrollTo('Projects')}>See my recent projects<span className="fas fa-tools ml-2"></span></button>
                         </div>
                     </div>
                 </div>

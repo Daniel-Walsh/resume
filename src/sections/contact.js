@@ -32,7 +32,7 @@ const Contact = () => {
                                 <label for="Message">Message</label>
                                 <textarea name="Message" id="Message" class="form-control" rows="5" placeholder="Enter your message" />
                             </div>
-                            <button type="submit" class="btn btn-secondary btn-lg">Send message</button>
+                            <button type="submit" class="btn btn-secondary btn-lg">Send message<span className="fas fa-paper-plane ml-2"></span></button>
                         </form>
                     </div>
                 </div>

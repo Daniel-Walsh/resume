@@ -1,6 +1,6 @@
 ![alt text](/img/projects/delwp-vwa.png "Department of Environment, Land, Water & Planning Visualising Water Accounts website")
 
-## Department of Environment, Land, Water & Planning Visualising Water Accounts website
+## The Department of Environment, Land, Water & Planning
 
 > Data Visualisation Website
 

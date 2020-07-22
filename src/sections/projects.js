@@ -4,6 +4,7 @@ import Section from '../components/section';
 import SectionHeading from '../components/section-heading';
 import styles from './projects.module.scss';
 import Reveal from 'react-reveal/Reveal';
+import ExternalLink from '../components/external-link';
 
 const importAll = (r) => r.keys().map(r);
 const markdownFiles = importAll(require.context('../projects', false, /\.md$/))
@@ -11,9 +12,9 @@ const markdownFiles = importAll(require.context('../projects', false, /\.md$/))
 
 const MarkdownLink = (props) => {
     return (
-        <a href={props.href} className="btn btn-outline-secondary" rel="noopener noreferrer" target="_blank">
+        <ExternalLink href={props.href} className="btn-outline-secondary">
             {props.children}<span className="fas fa-arrow-right ml-2"></span>
-        </a>
+        </ExternalLink>
     );
 };
 
