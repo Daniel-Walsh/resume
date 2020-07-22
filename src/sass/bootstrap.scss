@@ -16,6 +16,11 @@ $font-family-sans-serif: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI
 $headings-font-weight: 700;
 $btn-font-weight: 600;
 
+$display1-weight: 700;
+$display2-weight: 700;
+$display3-weight: 700;
+$display4-weight: 700;
+
 $theme-colors: (
     "primary": #47e6b6,
     "light": lighten(#47e6b6, 35%)
@@ -34,4 +39,21 @@ $yiq-text-dark: darken(#47e6b6, 45%);
     &:hover {
         box-shadow: $box-shadow;
     }
+}
+
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(1rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+  
+.fadeInUp {
+    animation-name: fadeInUp;
 }
