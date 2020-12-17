@@ -6,7 +6,7 @@ const Contact = () => {
     <Section id="Contact" className="bg-primary">
       <Reveal effect="fadeInUp">
         <div className="row">
-          <div className="col-md-10 offset-md-1 col-lg-5 offset-lg-1 ">
+          <div className="col-md-10 offset-md-1  col-lg-5 offset-lg-1">
             <Section.Heading className="text-light">
               Get in touch
             </Section.Heading>
@@ -21,7 +21,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <div className="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-5 offset-lg-0 col-xl-5 offset-xl-1">
+          <div className="col-sm-10 offset-sm-1  col-md-8 offset-md-2  col-lg-5 offset-lg-0  col-xl-4 offset-xl-1">
             <form name="Contact" method="POST">
               <input type="hidden" name="form-name" value="Contact" />
               <div className="mb-3">
