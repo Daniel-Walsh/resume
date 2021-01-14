@@ -29,8 +29,8 @@ const BlogSection = ({ blog }) => {
           <div className="row">
             {blog &&
               blog.map((blogPost, id) => (
-                <Reveal effect="fadeInUp">
-                  <div key={id} className="col-md-6 mb-5 mb-md-0">
+                <Reveal effect="fadeInUp" key={id}>
+                  <div className="col-md-6 mb-5 mb-md-0">
                     <div className="card h-100">
                       <img
                         src={blogPost.cover_image}

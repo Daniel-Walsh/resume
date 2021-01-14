@@ -18,7 +18,7 @@ const Projects = ({ projects }) => {
             recently:
           </p>
           {projects.map((project, id) => (
-            <Reveal delay effect="fadeInUp" key={id}>
+            <Reveal effect="fadeInUp" key={id}>
               <div className="project">
                 <img src={project.data.image} alt={project.data.altText} />
                 <h2>{project.data.name}</h2>

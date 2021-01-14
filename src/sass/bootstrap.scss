@@ -39,7 +39,7 @@ $primary: #00d1b2;
 
 $yiq-text-dark: darken($primary, 25%);
 
-$mark-bg: rgba(0, 209, 178, .2);
+$mark-bg: rgba(0, 209, 178, 0.2);
 
 // Bootstrap variables
 @import "~bootstrap/scss/_functions";
@@ -116,6 +116,7 @@ label {
 }
 
 mark {
-  color: hsl(171deg, 30%, 41%);
+  // color: hsl(171deg, 30%, 41%);
+  color: darken(#00d1b2, 20%);
   font-weight: 400;
 }

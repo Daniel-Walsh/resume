@@ -49,9 +49,9 @@ const Intro = () => {
                 jam.
               </p>
               <p>
-                Working with React, Next.js, Node.js/Express, Squiz Matrix or 
-                <mark>[insert&nbsp;your&nbsp;tech-stack&nbsp;here]</mark>, I'm 
-                always keen to take up new challenges and expand my knowledge.
+                Working with React, Next.js, Node.js/Express, Squiz Matrix or{" "}
+                <mark>[insert&nbsp;your&nbsp;tech&nbsp;here]</mark>, I'm always
+                keen to take up new challenges and expand my knowledge.
               </p>
             </div>
             <div className="mb-5 mb-lg-0">
