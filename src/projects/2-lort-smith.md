@@ -1,7 +1,7 @@
 ---
 image: /img/projects/lortsmith.jpg
 altText: "Lort Smith Animal Hospital website"
-subtitle: "Website & Dev Ops"
+subtitle: "Custom WordPress Solution"
 name: "Lort Smith Animal Hospital"
 siteUrl: https://www.lortsmith.com
 ---
