@@ -7,7 +7,7 @@ const BlogSection = ({ blog }) => {
   return (
     <Section id="Blog" className="bg-white">
       <div className="row">
-        <div className="col-md-10 offset-md-1  col-lg-8 offset-lg-2">
+        <div className="col-md-10 offset-lg-1  col-lg-7 ">
           <Section.Heading className="text-primary">
             Latest posts
           </Section.Heading>

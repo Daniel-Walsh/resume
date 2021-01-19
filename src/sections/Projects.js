@@ -7,16 +7,17 @@ const Projects = ({ projects }) => {
   return (
     <Section id="Projects" className="bg-light">
       <div className="row">
-        <div className="col-lg-10 offset-lg-1">
+        <div className="col-md-10 offset-lg-1  col-lg-7">
           <Section.Heading className="text-primary">
             Recent projects
           </Section.Heading>
           <p className="lead mb-5">
             Developing websites and applications in both a personal and
             professional capacity, I've worked on a number of projects over the
-            years. Here's just a short list of what I've been involved in
-            recently:
+            years. Here's just a short list of what I've been involved in:
           </p>
+        </div>
+        <div className="col-lg-10 offset-lg-1">
           {projects.map((project, id) => (
             <Reveal effect="fadeInUp" key={id}>
               <div className="project">
