@@ -18,7 +18,7 @@ const Footer = () => {
           <span className="fab fa-linkedin display-4"></span>
         </ExternalLink>
       </p>
-      <p className="mb-0">Copyright &copy; 2020 Dan Walsh</p>
+      <p className="mb-0">Copyright &copy; {new Date().getFullYear()} Dan Walsh</p>
     </Section>
   );
 };
